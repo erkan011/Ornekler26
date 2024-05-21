@@ -19,7 +19,6 @@ private fun getTypeMessage(obj: Any): String {
             val person = obj as Person
             "Bu Bir Person Nesnesidir. Adı: ${person.name}, Yaşı: ${person.age}"
         }
-
         else -> "Bilinmeyen Tür"
     }
 }
